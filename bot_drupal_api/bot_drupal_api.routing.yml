@@ -1,0 +1,7 @@
+drupal_api.form:
+  path: 'admin/config/bot/bot_drupal_api'
+  defaults:
+    _title: 'Bot Drupal API'
+    _form: 'drupal_api.form'
+  requirements:
+    _permission: 'access administration pages'
