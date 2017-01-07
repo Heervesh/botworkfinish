@@ -1,0 +1,9 @@
+name: 'Bot Karma'
+dependencies[]: bot
+description: 'Enables positive and negative tracking of words and phrases.'
+configure: bot_karma.form
+core: 8.x
+type: module
+
+
+ 
