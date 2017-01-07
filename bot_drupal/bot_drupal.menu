@@ -1,0 +1,5 @@
+bot_drupal.menu:
+  title: 'Bot Drupal'
+  description: 'Enables various Drupal developer friendly actions.'
+  parent: system.admin_config_ui
+  route_name: bot_drupal.form

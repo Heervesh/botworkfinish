@@ -1,0 +1,7 @@
+bot_drupal.form:
+  path: 'admin/config/bot/bot_drupal'
+  defaults:
+    _title: 'Bot Drupal'
+    _form: 'Drupal\modules\bot\bot_drupal\Form\botdrupalform'
+  requirements:
+    _permission: 'access administration pages'
