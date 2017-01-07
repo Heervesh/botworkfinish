@@ -1,0 +1,6 @@
+name: 'Bot Factoid'
+dependencies[]: 'bot'
+description: 'Enables the setting and retrieval of facts.'
+configure:bot_factoids.form
+core: 8.x
+type: module

@@ -1,0 +1,5 @@
+bot_factoid_menu:
+  title: 'bot factoid'
+  description: 'Enables the setting and retrieval of facts.'
+  parent: system.admin_config_ui
+  route_name: bot_factoids.form
