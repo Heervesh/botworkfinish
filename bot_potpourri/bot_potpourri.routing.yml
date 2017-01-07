@@ -1,0 +1,7 @@
+bot_potpourri.form:
+  path: 'admin/config/bot/bot_potpourri'
+  defaults:
+    _title: 'Bot Potpourri'
+    _form: 'Drupal\modules\bot\bot_potpourri\Form\botpotpourriform'
+  requirements:
+    _permission: 'access administration pages'
