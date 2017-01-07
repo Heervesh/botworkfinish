@@ -1,0 +1,5 @@
+name: 'bot'
+description: 'a bot module'
+core: 8.x
+type: module
+configure: bot_start.form
