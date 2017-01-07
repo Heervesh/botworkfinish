@@ -1,0 +1,7 @@
+bot_aggregator.form:
+  path: 'admin/config/bot/bot_aggregator'
+  defaults:
+    _title: 'Bot Agregator'
+    _form: '\modules\bot\bot_auth\Form\botauthform'
+  requirements:
+    _permission: 'access administration pages'

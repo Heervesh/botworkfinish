@@ -1,0 +1,6 @@
+label: 'Back to top'
+position: 1
+hover: '#777777'
+bg_color_out: '#CCCCCC'
+display_text: true
+admin_theme: true
