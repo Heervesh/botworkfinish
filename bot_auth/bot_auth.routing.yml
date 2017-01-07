@@ -1,0 +1,7 @@
+bot_auth.form:
+  path: 'admin/config/botold/bot_auth'
+  defaults:
+    _title: 'Bot Auth'
+    _form: 'bot_auth.form'
+  requirements:
+    _permission: 'access administration pages'
