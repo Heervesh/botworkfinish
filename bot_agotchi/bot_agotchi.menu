@@ -1,0 +1,5 @@
+bot_agotchi.menu:
+  title: 'Botagotchi'
+  description: 'Proper care and feeding lets your botagotchi grow and be happy!'
+  parent: system.admin_config_ui
+  route_name: bot_agotchi.form
