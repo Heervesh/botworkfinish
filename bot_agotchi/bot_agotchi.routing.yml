@@ -1,7 +1,7 @@
-drupal_get_form:
-  path: 'admin/settings/bot/agotchi'
+bot_agotchi.form:
+  path: 'admin/config/user-interface/bot_agotchi'
   defaults:
     _title: 'Botagotchi'
-    _form: 'Drupal\modules\bot\bot_aggregator\Form\botaggregatorform'
+    _form: '\Drupal\bot_agotchi\Form\BotAgotchiForm'
   requirements:
     _permission: 'access administration pages'
