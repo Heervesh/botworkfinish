@@ -25,13 +25,13 @@ function bot_factoid_help($path, $arg) {
  * Implements hook_menu().
  */
 function bot_factoid_menu() {
-  $items['bot/factoid'] = array(
+  $items['admin/config/user-interface/bot_factoid'] = array(
     'access arguments'  => array('access bot factoids'),
     'description'       => "Browse all the factoids the bot knows about.",
     'page callback'     => 'bot_factoid_overview',
     'title'             => 'Factoids',
   );
-  $items['bot_factoids.form'] = array(
+  $items['admin/config/user-interface/bot_factoid'] = array(
     'access arguments'  => array('administer bot'),
     'description'       => 'Configure factoid learning with these settings.',
     'page callback'     => 'drupal_get_form',
