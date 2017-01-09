@@ -1,6 +1,6 @@
-name: Bot Drupal API
+name: 'Bot Drupal API'
 dependencies[]: bot
 description: 'Enables function name lookups from a Drupal api.module export.'
-configure: drupal_api.form
+configure: bot_drupal_api.form
 core: 8.x
 type: module
