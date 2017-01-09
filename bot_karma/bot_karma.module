@@ -25,7 +25,7 @@ function bot_karma_help($section) {
  * Implements hook_menu().
  */
 function bot_karma_menu() {
-  $items['bot/karma'] = array(
+  $items['admin/config/user-interface/bot_karma'] = array(
     'access arguments'  => array('access bot karma scores'),
     'description'       => 'View the highest and lowest karma scores earned from IRC.',
     'page callback'     => 'bot_karma_overview',
