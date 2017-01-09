@@ -43,7 +43,7 @@ function bot_menu($may_cache) {
       'callback'           => 'drupal_get_form',
       'callback arguments' => 'bot_settings',
       'description'        => t('Configure your bot framework with these settings.'),
-      'path'               => 'admin/settings/bot',
+      'path'               => 'admin/config/user-interface/bot_start',
       'title'              => t('Bot'),
     );
   }

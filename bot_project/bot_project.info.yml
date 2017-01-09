@@ -1,5 +1,6 @@
 name: 'Bot Project'
 dependencies[]: bot
+dependencies[]: project
 description: 'Enables various project toolkit compatible actions.'
 configure: bot_project.form
 core: 8.x

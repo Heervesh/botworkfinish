@@ -1,7 +1,7 @@
 bot_project.form:
-  path: 'admin/config/bot/project'
+  path: 'admin/config/user-interface/bot_project'
   defaults:
     _title: 'Bot Project'
-    _form: 'Drupal\modules\bot\bot_project\Form\botprojectform'
+    _form: '\Drupal\bot_project\Form\BotProjectForm'
   requirements:
     _permission: 'access administration pages'

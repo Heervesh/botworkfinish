@@ -1,0 +1,7 @@
+bot_start.form:
+  path: 'admin/config/user-interface/bot_start'
+  defaults:
+    _title: 'Bot Agregator'
+    _form: '\Drupal\bot_start\Form\BotStartForm'
+  requirements:
+    _permission: 'access administration pages'
